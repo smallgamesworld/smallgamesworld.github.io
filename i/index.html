@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Your invite</title>
+  <link rel="stylesheet" href="../style.css">
+  <script type="module" src="../invite.js"></script>
+</head>
+<body>
+  <main>
+    <section id="invite" hidden>
+      <h1>You've been invited to Diary of Ten</h1>
+      <p>Someone has asked you into their circle, a small private group of up to ten people.</p>
+      <p><a id="open" class="button" href="#">Open the app</a></p>
+      <p>If nothing happens, copy this invite and paste it into the app when it asks for one.</p>
+      <p><button id="copy" type="button">Copy the invite</button></p>
+      <p class="quiet">Don't have the app yet? It's in a small trial. Ask the person who invited you how to get it. An invite lasts 14 days and works once.</p>
+    </section>
+    <section id="broken" hidden>
+      <h1>This invite link isn't complete</h1>
+      <p>Part of the link may have been cut off. Ask the person who invited you to send it again.</p>
+    </section>
+    <noscript>
+      <h1>Your invite</h1>
+      <p>This page needs JavaScript to open the app. You can also copy the address of this page and paste it into the app.</p>
+    </noscript>
+  </main>
+</body>
+</html>

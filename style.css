@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light dark;
+  --bg: #faf8f5;
+  --text: #2b2a28;
+  --quiet: #6b6863;
+  --accent: #3d6b5a;
+  --on-accent: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1b1a;
+    --text: #ebe8e3;
+    --quiet: #a7a39c;
+    --accent: #8fbfab;
+    --on-accent: #10201a;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.5 system-ui, sans-serif;
+}
+
+main {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.6rem;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  background: var(--accent);
+  color: var(--on-accent);
+  border: none;
+}
+
+button {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.quiet {
+  color: var(--quiet);
+  font-size: 0.95rem;
+}
