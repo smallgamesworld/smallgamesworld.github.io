@@ -15,10 +15,11 @@
     <section id="invite" hidden>
       <h1>You've been invited to Diary of Ten</h1>
       <p>Someone has asked you into their circle, a small private group of up to ten people.</p>
-      <p><a id="open" class="button" href="#">Open the app</a></p>
-      <p>If nothing happens, copy this invite and paste it into the app when it asks for one.</p>
-      <p><button id="copy" type="button">Copy the invite</button></p>
-      <p class="quiet">Don't have the app yet? It's in a small trial. Ask the person who invited you how to get it. An invite lasts 14 days and works once.</p>
+      <p><button id="main" type="button" class="button"></button></p>
+      <p id="note" role="status"></p>
+      <p><a id="store" class="button" href="#" hidden>Get Diary of Ten</a></p>
+      <p id="have" class="quiet">Already have it? <a id="open" href="#">Open the app</a></p>
+      <p class="quiet">An invite lasts 14 days and works once.</p>
     </section>
     <section id="broken" hidden>
       <h1>This invite link isn't complete</h1>
@@ -26,7 +27,7 @@
     </section>
     <noscript>
       <h1>Your invite</h1>
-      <p>This page needs JavaScript to open the app. You can also copy the address of this page and paste it into the app.</p>
+      <p>This page needs JavaScript to open the app. You can also copy the address of this page, then open the app and tap Use my invite.</p>
     </noscript>
   </main>
 </body>

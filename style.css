@@ -57,6 +57,11 @@ button {
   border: 1px solid var(--accent);
 }
 
+/* The button's display would otherwise beat the attribute. */
+[hidden] {
+  display: none !important;
+}
+
 .quiet {
   color: var(--quiet);
   font-size: 0.95rem;

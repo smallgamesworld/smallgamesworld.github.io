@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["485DRDG2H4.com.smallgamesworld.diaryoften"],
+        "components": [{ "/": "/i/*" }]
+      }
+    ]
+  }
+}
